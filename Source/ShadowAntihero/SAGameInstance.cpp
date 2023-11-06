@@ -33,6 +33,7 @@ void USAGameInstance::LoadGame()
     else
     {
         GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Saved game found. Loaded."));
+        GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, SaveGameSlotName);
     }
 
 }

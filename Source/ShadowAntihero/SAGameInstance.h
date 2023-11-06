@@ -19,7 +19,7 @@ public:
 	USAGameInstance();
 
 	// Optional this will be the save file name. Initialization is in constructor.
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite)
 	FString SaveGameSlotName;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Settings")
