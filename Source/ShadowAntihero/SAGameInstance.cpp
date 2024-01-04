@@ -6,7 +6,8 @@
 
 USAGameInstance::USAGameInstance()
 {
-    SaveGameSlotName = "SaveGameExample";
+    SaveGameSlotName = "FastSaveSlot";
+    isLoad = true;
 }
 
 void USAGameInstance::LoadGame()

@@ -22,6 +22,9 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	FString SaveGameSlotName;
 
+	UPROPERTY(BlueprintReadWrite)
+	bool isLoad;
+
 	UPROPERTY(BlueprintReadWrite, Category = "Settings")
 	USASaveGame* SaveGameObject;
 
